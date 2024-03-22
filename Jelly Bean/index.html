@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Must</title>
+    <style>
+        body { margin: 0; }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+        }
+    </style>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.1/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.1/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="controls">
+        <button id="startButton">Start Running</button>
+        <button id="stopButton">Stop Running</button>
+        
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
